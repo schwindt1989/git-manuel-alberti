@@ -1,0 +1,176 @@
+body{
+    background-color: #25212b;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%233c33ca' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+div{
+    display:block;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+#cabe{
+    text-align: left;
+}
+#img1{
+    width: 98%;
+    height: 25%;  
+    margin: 3% auto;
+    display: block;
+    border-radius: 10px;
+}
+.div1{
+    width: 70%;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    margin:3% auto;
+   
+}
+
+/* navegacion*/
+#nav1 {
+    float: left;
+    padding: 0px 20px 0px 0px;
+  }
+#ul1 {
+    list-style: none;
+  }
+  
+#nav1 #ul1 .li1{
+    font-size: 150%;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+  }
+  a {
+    color: #d8d2ce;
+    text-decoration: none;
+    font-weight: bold;
+  }
+a:hover {
+    color: #252323;
+  }
+.buscador{
+    margin-right: auto;
+    border: 2px solid black;
+    display: contents;
+    text-align: right;
+}
+#secion1{
+    margin: 20px;
+    width: 60%;}
+
+#nav2 #ul2{
+    display: block;
+    border: 1px solid black;
+}
+#ul2 {
+    list-style: none;
+  }
+    
+
+
+    
+   
+    
+
+/*pie de pagina*/
+footer {
+    background: #2c3e50;
+    width: 100%;
+    overflow: auto;
+}
+
+
+.icon-text {
+    width: 100%;
+    margin: 0 auto;
+  }
+.icon-text-icon {
+    float: left;
+    width: 20%;
+    padding: 4%;
+  }
+  .footer-nav a:hover {
+    color: #f5f5f5;
+  }
+  .footer-nav a {
+    font-size: 160%;
+    color: #c3d7df;
+    font-weight: 300;
+  }
+  .footer-nav {
+    text-align: right;
+  }
+  .social li {
+    display: inline;
+  }
+  .social {
+    list-style-type: none;
+    text-align: center;
+  }
+  .social i {
+    font-size: 320%;
+    margin: 1%;
+    padding: 2%;
+    color: #c3d7df;
+  }
+  
+  .social i:hover {
+    color: #8b5252;
+  }
+  footer.second {
+    border-top: 1px solid #aadcd2;
+    text-align: center;
+    margin: 0;
+  }
+  footer.second p, .second a {
+    text-align: center;
+    color: #fff;
+    font-size: 160%;
+    line-height: 155%;
+  }
+  .footer-nav{
+      display: inline-block;
+      list-style: none;
+      padding:5px;
+      font: bold 14px verdana;
+
+  }
+/* cartas */
+.clearfix-padding {
+    clear: both;
+    padding: 2%;
+}
+.card-img-top {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 500px;
+    width: 100%;
+    margin-bottom: -4px;
+    border-radius: 10px;
+}
+.card-text{
+    color: #524c56;
+    font-size: 130%;
+    line-height: 135%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+
+.one-third-padding {
+    width: 29%;
+    float: left;
+    margin: 2% 2%;
+}
+.card1{
+    
+    display: inline-block;
+    border: 2px solid black;
+    padding: 15px;
+}
