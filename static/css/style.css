@@ -69,6 +69,11 @@ a:hover {
 }
 #ul2 {
     list-style: none;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+    margin-left: auto;
+    float: left;
   }
     
 
