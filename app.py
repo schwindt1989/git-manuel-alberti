@@ -146,21 +146,9 @@ def servicio():
 def preguntas():
     return render_template("preguntas.html")
 
-@app.route("/verduleria")
-def verduleria():
-    return render_template("verduleria.html")
-
-@app.route("/peluqueria")
-def peluqueria():
-    return render_template("peluqueria.html")
-
-@app.route("/celulares")
-def celulares():
-    return render_template("celulares.html")
-
-@app.route("/perfumeria")
-def perfumeria():
-    return render_template("perfumeria.html")
+@app.route("/descuentos y ofertas")
+def descuentosyofertas():
+    return render_template("descuentos y ofertas.html")
 
 if __name__ == "__main__":
     app.run (debug=True,port=4000)

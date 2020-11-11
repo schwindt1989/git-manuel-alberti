@@ -18,6 +18,9 @@ div{
     padding: 0px 20px 0px 0px;
     list-style: none;
 }
+hr{
+    border: 1px solid rgb(90, 51, 180);
+}
 #img1{
     width: 98%;
     height: 25%;  
@@ -35,8 +38,6 @@ div{
    
 }
 
-
-  
 #nav1 #ul1 .li1{
     font-size: 150%;
     display: inline-block;
@@ -45,13 +46,16 @@ div{
     list-style: none;
     color: brown;
   }
-  a {
-    color: #d8d2ce;
+
+a{
+    color: rgb(139, 124, 96);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     font-weight: bold;
-  }
+}
 a:hover {
-    color: #252323;
+    color: #e7be8f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
    
 /*pie de pagina*/
@@ -75,7 +79,7 @@ footer {
 .footer-nav a {
     font-size: 160%;
     color: #c3d7df;
-    font-weight: 300;
+    font-weight: 300%;
 }
 .footer-nav {
     text-align: right;
@@ -130,7 +134,7 @@ footer.second p, .second a {
     border-radius: 10px;
 }
 .card-text{
-    color: #524c56;
+    color: #bea6ce;
     font-size: 130%;
     line-height: 135%;
     padding: 3%;
@@ -143,8 +147,18 @@ footer.second p, .second a {
     float: left;
     margin: 2% 2%;
 }
-.card1{
+.card-title{
+    color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*.card1{
     display: inline-block;
     border: 2px solid black;
     padding: 15px;
+}*/
+
+.jumbotron1 p{
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
