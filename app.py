@@ -125,11 +125,10 @@ def editar(id):
 
 @app.route ('/products/<int:id>', methods=['DELETE'])
 def delete(id):
-    product = Products.query.filter_by(id=int(id)).delete()
+    usuario = Usuario.query.filter_by(id=int(id)).delete()
     db.session.commit()
-    usuarios = Products.query.all()
-    result = products_schema.dump(usuarios)
-
+    
+    result = usuario_schema.dump(usuarios)
     return {"status":"success", "data":result}, 200
 
 app.secret_key = "12345"
